@@ -1,0 +1,106 @@
+>pwd  
+/Users/carloshaironribeirogoncalves/JS/exEJS
+  
+>ls
+Tutorial sobre o EJS.txt	package.json
+app.js				public
+node_modules		views
+package-lock.json
+
+>node --version
+v14.16.1
+
+>npm --version
+6.14.12
+
+>git --version
+git version 2.24.3 (Apple Git-128)
+
+
+> pwd
+/Users/carloshaironribeirogoncalves/JS/exEJS
+> ls
+Tutorial sobre o EJS.txt	package.json
+app.js				public
+node_modules			views
+package-lock.json
+> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (portal_noticias_ejs) hairon-my-app-deploy
+version: (1.0.0) 1.0.0
+git repository: (https://github.com/hexat/exejs-hairon-app.git) 
+license: (ISC) MIT
+About to write to /Users/carloshaironribeirogoncalves/JS/exEJS/package.json:
+
+{
+  "name": "hairon-my-app-deploy",
+  "version": "1.0.0",
+  "description": "Site de notícias",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudio Junior",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1"
+  },
+  "keywords": [
+    "Express",
+    "EJS"
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexat/exejs-hairon-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hexat/exejs-hairon-app/issues"
+  },
+  "homepage": "https://github.com/hexat/exejs-hairon-app#readme"
+}
+
+
+Is this OK? (yes) yes
+> npm install express
++ express@4.17.1
+updated 1 package and audited 51 packages in 10.193s
+found 0 vulnerabilities
+
+
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │      New major version of npm available! 6.14.12 → 7.15.0      │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v7.15.0   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
+
+> npm install ejs    
+
+> ejs@2.7.4 postinstall /Users/carloshaironribeirogoncalves/JS/exEJS/node_modules/ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
++ ejs@2.7.4
+updated 1 package and audited 51 packages in 2.178s
+found 0 vulnerabilities
+
+> node --version
+v14.16.1
+> 
+
+> heroku local web
+

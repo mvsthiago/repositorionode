@@ -1,0 +1,29 @@
+//Tutorial sobre o EJS
+
+> pwd
+/Users/carloshaironribeirogoncalves/JS/exEJS
+app.js	package.json	views
+> npm init
+... 
+> npm install express -save
+...
+> npm install ejs --save
+...
+> node app.js
+
+
+
+//Instalando e testando o Nodemon
+//O Nodemon é um utilitário que nos auxilia a dar o restart em um arquivo
+//de forma automática 
+
+>npm install -g nodemon
+ou
+> sudo npm install -g nodemon --u (para ter direito de rootls
+)
+...
+>nodemon app.js
+
+//Tutorial sobre arquivos estáticos no nodeJS
+//https://www.codespeedy.com/display-local-image-in-node-js-express-js/
+

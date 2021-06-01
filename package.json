@@ -1,0 +1,38 @@
+{
+  "name": "hairon-app-deploy",
+  "version": "1.0.0",
+  "description": "Site de notícias",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Hairon",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1"
+  },
+
+  "scripts": {
+    "start": "node app.js",
+    "test":  "node test.js"
+  },
+
+  "engines": {
+    "node": "v14.x"
+  },
+
+  "keywords": [ 
+    "Express",
+    "EJS"
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexat/exejs-hairon-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hexat/exejs-hairon-app/issues"
+  },
+  "homepage": "https://github.com/hexat/exejs-hairon-app#readme"
+}
